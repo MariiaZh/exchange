@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(to right, rgba(68, 47, 255, 0.1), rgba(27, 136, 0, 0.1));
+}
+
+.wrapper {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 15px 15px 50px 15px;
+    border: 1px solid darkgray;
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: 2px 3px 7px rgba(147, 112, 216, 0.24);
+}
+
+h2 {
+    text-align: center;
+    color: mediumpurple;
+    font-family: 'Philosopher', sans-serif;
+
+}
+
+#exchange {
+    width: 550px;
+    padding: 10px;
+    border-radius: 9px;
+    background-color: white;
+    border: 1px solid darkgray;
+    border-spacing: 0;
+    box-shadow: 2px 3px 7px rgba(147, 112, 216, 0.24);
+}
+
+thead {
+    text-align: center;
+    background-color: mediumpurple;
+    color: white;
+    font-weight: bold;
+    font-family: 'Philosopher', sans-serif;
+}
+
+thead td {
+    border-right: 0;
+    border-bottom: 0;
+}
+
+thead td:first-child {
+    border-radius: 9px 0 0;
+}
+
+thead td:last-child {
+    border-radius: 0 9px 0 0;
+    border-right: 1px solid darkgray;
+}
+
+td {
+    border: 1px solid darkgray;
+    padding: 9px;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+tr:last-child td{
+    border-bottom: 1px solid darkgray;
+}
+
+tr td:last-child{
+    border-right: 1px solid darkgray;
+}
+
